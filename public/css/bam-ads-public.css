@@ -10,19 +10,19 @@
 font-family: 'Helvetica Neue LT Pro 65 Medium';
 font-style: normal;
 font-weight: normal;
-src: local('Helvetica Neue LT Pro 65 Medium'), url('HelveticaNeueLTPro-Md.woff') format('woff');
+src: local('Helvetica Neue LT Pro 65 Medium'), url('/wp-content/plugins/bam-ads/public/fonts/HelveticaNeueLTPro-Md.woff') format('woff');
 }
 @font-face {
 font-family: 'Helvetica Neue LT Pro 77 Bold Condensed';
 font-style: normal;
 font-weight: normal;
-src: local('Helvetica Neue LT Pro 77 Bold Condensed'), url('/eatsy/wp-content/plugins/bam-ads/public/fonts/HelveticaNeueLTPro-BdCn.woff') format('woff');
+src: local('Helvetica Neue LT Pro 77 Bold Condensed'), url('/wp-content/plugins/bam-ads/public/fonts/HelveticaNeueLTPro-BdCn.woff') format('woff');
 }
 @font-face {
 font-family: 'Helvetica Neue LT Pro 55 Roman';
 font-style: normal;
 font-weight: normal;
-src: local('Helvetica Neue LT Pro 55 Roman'), url('/eatsy/wp-content/plugins/bam-ads/public/fonts/HelveticaNeueLTPro-Roman.woff') format('woff');
+src: local('Helvetica Neue LT Pro 55 Roman'), url('/wp-content/plugins/bam-ads/public/fonts/HelveticaNeueLTPro-Roman.woff') format('woff');
 }
 
 /**
