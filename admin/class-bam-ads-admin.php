@@ -237,8 +237,6 @@ class Bam_Ads_Admin {
 				if(empty($bgcolor)) {
 					if(in_category('nfl')) {
 						$bgcolor = '#000';
-					} else if(in_category('nfl')) {
-						$bgcolor = 'orange';
 					} else if(in_category('mlb')) {
 						$bgcolor = 'blue';
 					} else if(in_category('nba')) {
