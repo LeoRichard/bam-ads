@@ -10,19 +10,19 @@
 font-family: 'Helvetica Neue LT Pro 65 Medium';
 font-style: normal;
 font-weight: normal;
-src: local('Helvetica Neue LT Pro 65 Medium'), url('/wp-content/plugins/bam-ads/public/fonts/HelveticaNeueLTPro-Md.woff') format('woff');
+src: local('Helvetica Neue LT Pro 65 Medium'), url('/wp-content/plugins/bam-ads-master/public/fonts/HelveticaNeueLTPro-Md.woff') format('woff');
 }
 @font-face {
 font-family: 'Helvetica Neue LT Pro 77 Bold Condensed';
 font-style: normal;
 font-weight: normal;
-src: local('Helvetica Neue LT Pro 77 Bold Condensed'), url('/wp-content/plugins/bam-ads/public/fonts/HelveticaNeueLTPro-BdCn.woff') format('woff');
+src: local('Helvetica Neue LT Pro 77 Bold Condensed'), url('/wp-content/plugins/bam-ads-master/public/fonts/HelveticaNeueLTPro-BdCn.woff') format('woff');
 }
 @font-face {
 font-family: 'Helvetica Neue LT Pro 55 Roman';
 font-style: normal;
 font-weight: normal;
-src: local('Helvetica Neue LT Pro 55 Roman'), url('/wp-content/plugins/bam-ads/public/fonts/HelveticaNeueLTPro-Roman.woff') format('woff');
+src: local('Helvetica Neue LT Pro 55 Roman'), url('/wp-content/plugins/bam-ads-master/public/fonts/HelveticaNeueLTPro-Roman.woff') format('woff');
 }
 
 /**
@@ -90,7 +90,8 @@ src: local('Helvetica Neue LT Pro 55 Roman'), url('/wp-content/plugins/bam-ads/p
 }
 .bam-ad-button span {
   font-size: 12px;
-  padding: 10px 30px;
+  padding: 5px 30px;
+  line-height: 1.4;
 }
 .bam-ad-subtitle {
   color: #fff;
@@ -121,10 +122,12 @@ src: local('Helvetica Neue LT Pro 55 Roman'), url('/wp-content/plugins/bam-ads/p
   margin: 1px;
   min-width: 44px;
   padding: 2px 5px;
+  line-height: 1.2;
 }
 .bam-countdown div > div:nth-child(2) {
   font-size: 26px;
   margin-top: -4px;
+  padding: 0;
 }
 
 /**
@@ -179,10 +182,10 @@ src: local('Helvetica Neue LT Pro 55 Roman'), url('/wp-content/plugins/bam-ads/p
   }
   .bam-ad-highlight {
     font-size: 24px;
-    margin-bottom: 5px;
    }
   .bam-ad-subtitle {
     font-size: 14px;
+    display: block;
    }
   .bam-ad-countdown {
     font-size: 12px;
