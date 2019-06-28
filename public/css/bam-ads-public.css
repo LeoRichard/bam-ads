@@ -1,0 +1,203 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/**
+* Fonts
+*/
+@font-face {
+font-family: 'Helvetica Neue LT Pro 65 Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue LT Pro 65 Medium'), url('HelveticaNeueLTPro-Md.woff') format('woff');
+}
+@font-face {
+font-family: 'Helvetica Neue LT Pro 77 Bold Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue LT Pro 77 Bold Condensed'), url('/eatsy/wp-content/plugins/bam-ads/public/fonts/HelveticaNeueLTPro-BdCn.woff') format('woff');
+}
+@font-face {
+font-family: 'Helvetica Neue LT Pro 55 Roman';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue LT Pro 55 Roman'), url('/eatsy/wp-content/plugins/bam-ads/public/fonts/HelveticaNeueLTPro-Roman.woff') format('woff');
+}
+
+/**
+* Ads Pick Template
+*/
+.bam-ad-highlight, .bam-countdown div > div:nth-child(2) {
+  font-family: 'Helvetica Neue LT Pro 77 Bold Condensed', Helvetica, Arial, sans-serif;
+}
+.bam-ad-countdown, .bam-ad-countdown span, .bam-ad-button span, .bam-countdown div > div:nth-child(1), .bam-ad-subtitle  {
+  font-family: 'Helvetica Neue LT Pro 65 Medium', Helvetica, Arial, sans-serif;
+}
+.bam-ad-wrap {
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 20px 0;
+}
+.bam-ad-wrap a {
+  text-decoration: none;
+}
+.bam-ad-wrapper {
+  display: flex;
+  display: -ms-flexbox;
+  display:-webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+}
+.bam-ad-countdown img {
+  width: 100%;
+}
+.bam-ad-wrap strong {
+  color: #fff;
+  font-family: 'Helvetica Neue LT Pro 55 Roman';
+}
+.bam-ad-image img {
+  max-width: none;
+}
+.bam-ad-countdown span {
+  font-size: 13px;
+}
+.bam-ad-content {
+  align-items: center;
+  display: flex;
+  display: -ms-flexbox;
+  display:-webkit-flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.bam-ad-content, .bam-ad-button {
+  background-color: black;
+}
+.bam-ad-button {
+  width: 100%;
+  display: flex;
+  display: -ms-flexbox;
+  display:-webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+.bam-ad-button span {
+  font-size: 12px;
+  padding: 10px 30px;
+}
+.bam-ad-subtitle {
+  color: #fff;
+  line-height: 1.5;
+}
+.bam-ad-highlight {
+  color: #f8e736;
+  display: block;
+}
+.bam-ad-countdown {
+  display: flex;
+  display: -ms-flexbox;
+  display:-webkit-flex;
+  color: #fff;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px
+}
+.bam-countdown {
+  display: flex;
+  display: -ms-flexbox;
+  display:-webkit-flex;
+  text-align: center;
+}
+.bam-countdown div {
+  background-color: #db1e0e;
+  margin: 1px;
+  min-width: 44px;
+  padding: 2px 5px;
+}
+.bam-countdown div > div:nth-child(2) {
+  font-size: 26px;
+  margin-top: -4px;
+}
+
+/**
+* Media Queries
+*/
+@media (max-width: 768px) {
+   .bam-ad-countdown {
+     flex-direction: column;
+     -webkit-flex-direction: column;
+     -ms-flex-direction: column;
+   }
+   .bam-ad-highlight {
+     font-size: 21px;
+     text-align: center;
+   }
+   .bam-ad-subtitle {
+     display: block;
+     font-size: 12px;
+     padding: 10px 0;
+     text-align: center;
+   }
+   .bam-ad-countdown {
+     font-size: 12px;
+     text-align: center;
+   }
+   .bam-ad-countdown img {
+     padding: 10px 0;
+   }
+   .bam-ad-countdown span {
+     padding: 0;
+   }
+   .bam-ad-button {
+     padding: 10px 0;
+   }
+   .bam-ad-content {
+     flex-direction: column;
+     -webkit-flex-direction: column;
+     -ms-flex-direction: column;
+   }
+}
+@media (min-width: 768px) {
+  .bam-ad-wrap {
+    margin: 0 auto;
+    max-width: 710px;
+  }
+  .bam-ad-wrapper {
+    background-color: #000;
+    display: grid;
+    grid-template-columns: minmax(75%, 1fr) minmax(25%, 1fr);
+    height: 140px;
+    width: 100%;
+  }
+  .bam-ad-highlight {
+    font-size: 24px;
+    margin-bottom: 5px;
+   }
+  .bam-ad-subtitle {
+    font-size: 14px;
+   }
+  .bam-ad-countdown {
+    font-size: 12px;
+    text-align: left;
+   }
+  .bam-ad-countdown span {
+    line-height: 16px;
+    padding: 0 0 0 15px;
+   }
+  .bam-ad-content {
+     flex-direction: row;
+     -webkit-flex-direction: row;
+     -ms-flex-direction: row;
+   }
+  .bam-ad-text {
+     padding-left: 15px;
+   }
+}
